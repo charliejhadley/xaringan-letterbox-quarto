@@ -1,0 +1,49 @@
+---
+title: "Xaringan Slides"
+format: xaringan-revealjs
+auto-stretch: false
+---
+
+<script>
+const child = document.getElementById('title-slide');
+child.parentElement.classList.add('inverse');
+</script>
+
+## Hello World
+
+Install the **xaringan** package from [Github](https://github.com/yihui/xaringan):
+
+
+```{r}
+#| eval: false
+#| echo: true
+remotes::install_github("yihui/xaringan")
+```
+
+You are recommended to use the [RStudio IDE](https://www.rstudio.com/products/rstudio/), but you do not have to.
+
+::: {.incremental}
+
+- Create a new R Markdown document from the menu `File -> New File -> R Markdown -> From Template -> Ninja Presentation`;^[中文用户请看[这份教程](https://slides.yihui.org/xaringan/zh-CN.html)]
+
+- Click the `Knit` button to compile it;
+
+- or use the [RStudio Addin](https://rstudio.github.io/rstudioaddins/)^[See [#2](https://github.com/yihui/xaringan/issues/2) if you do not see the template or addin in RStudio.] "Infinite Moon Reader" to live preview the slides (every time you update and save the Rmd document, the slides will be automatically reloaded in RStudio Viewer.
+
+:::
+
+##  Slide started with level 3
+
+------------------------------------------------------------------------
+
+### Level 2 header
+
+I'm on another slide!
+
+-------------
+
+## Try {-}
+
+Do I work
+
+### I'm a third

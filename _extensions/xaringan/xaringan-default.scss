@@ -1,0 +1,38 @@
+/*-- scss:defaults --*/
+
+$link-color: rgb(249, 38, 114);
+$presentation-font-size-root: 28px;
+$heading2Size: 55px;
+$heading3Size: 45px;
+$heading4Size: 35px;
+
+$inverse-background-color: #272822;
+
+/*-- scss:rules --*/
+
+.quarto-light {
+  background-color: #D8D8D3;
+}
+
+.slides {
+  background-color: #fff;
+  border-width: 20px 80px 20px 80px;
+  border-style: solid;
+  border-color: #fff;
+  box-shadow: rgb(136, 136, 136) 0px 0px 30px 0px;
+}
+
+
+code:not(.sourceCode) {
+  color: purple;
+}
+
+.inverse {
+  background-color: $inverse-background-color;
+  border-width: 20px 80px 20px 80px;
+  border-style: solid;
+  border-color: $inverse-background-color;
+  box-shadow: rgb(136, 136, 136) 0px 0px 30px 0px;
+}
+
+

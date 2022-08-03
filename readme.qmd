@@ -1,0 +1,46 @@
+---
+title: "Untitled"
+format: gfm
+---
+
+# {xaringan} quarto format
+
+[`{xaringan}`](https://github.com/yihui/xaringan) is a much loved format for interactive presentations with RMarkdown. It has a distinctive style and [tools for customising your own themes](https://pkg.garrickadenbuie.com/xaringanthemer/articles/xaringanthemer.html). The package author (Yihui Xie) has explained that [he does not intend to bring `{xaringan}` into the `{quarto}` world](https://yihui.org/en/2022/04/quarto-r-markdown/).
+
+This GitHub repo provides a `{xaringan}`-inspired presentation format for users of `{quarto}`. If you've not heard of `{quarto}` before...
+
+> `{quarto}`is a tool designed to provide an RMarkdown-like ecosystem of tools to users of languages other than R (and folks using R!).
+
+However, in order for that to work there are significant differences between how quarto and RMarkdown formats work. For instance, to use this *quarto format* you don't install this repository as an R package. Instead you must run this code in the Terminal of your RStudio project (**not** in the R console):
+
+```{bash}
+quarto install extension charliejhadley/xaringan-quarto
+```
+
+## Will my slides will look the same in this format?
+
+No. Yihui's awesome `{xaringan}` package makes use of a framework called `remark.js` which is what gives the slides their look and feel. In the `{quarto}` world, HTML slides are created using `reveal.js` which has a completely different design (and a lot more flexibility than `remark.js`).
+
+{Show side by side!)
+
+## Current pain points
+
+-   The "print to PDF" feature of `{quarto}` **does not work well** for this format. I'm unsure if this could be improved, the [`reveal.js` framework does not provide much customisation for the print format](https://quarto.org/docs/presentations/revealjs/presenting.html#print-to-pdf).
+
+## Using this format
+
+The two different frameworks also have different interfaces. Here's an important example
+
+-   In `{xaringan}` slides built with RMarkdown we **exclusively use** `---` to break our document into slides and we can use whatever type of heading we like to title slides.
+
+-   In slides built with `{quarto}` (including if using this format), section headings are special and deliminate content
+
+    -   Level 1 headings (using #) create title slides
+
+    -   Level 2 headings (using \## create new slides
+
+    -   Level 3 headings (and below) have no special meaning
+
+-   In `{quarto}` it is also possible to split slides using `---`
+
+In order to try and bridge these worlds as much as possible,

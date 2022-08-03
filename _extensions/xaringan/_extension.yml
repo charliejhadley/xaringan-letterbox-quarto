@@ -1,0 +1,11 @@
+title: xaringan quarto Presentation
+author: Charlotte Hadley
+version: 0.0.1
+contributes:
+  formats:
+    revealjs:
+       theme: [default, xaringan-default.scss, xaringan-default-fonts.scss]
+       highlight-style: github
+       common:
+       filters:
+           - remark-js.lua
