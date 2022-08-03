@@ -1,6 +1,6 @@
 ---
 title: "Xaringan letter box effect in quarto"
-format: xaringan-revealjs
+format: revealjs
 auto-stretch: false
 ---
 
