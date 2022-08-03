@@ -1,15 +1,15 @@
 ---
-title: "Xaringan Slides"
+title: "Xaringan letter box effect in quarto"
 format: xaringan-revealjs
 auto-stretch: false
 ---
 
-<script>
-const child = document.getElementById('title-slide');
-child.parentElement.classList.add('inverse');
-</script>
-
 ## Hello World
+
+<!-- <script> -->
+<!-- const child = document.getElementById('title-slide'); -->
+<!-- child.parentElement.classList.add('inverse'); -->
+<!-- </script> -->
 
 Install the **xaringan** package from [Github](https://github.com/yihui/xaringan):
 

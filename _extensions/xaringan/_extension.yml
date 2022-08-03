@@ -4,8 +4,5 @@ version: 0.0.1
 contributes:
   formats:
     revealjs:
-       theme: [default, xaringan-default.scss, xaringan-default-fonts.scss]
+       theme: [default, xaringan-default.scss]
        highlight-style: github
-       common:
-       filters:
-           - remark-js.lua
