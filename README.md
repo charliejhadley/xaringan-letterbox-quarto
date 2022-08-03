@@ -7,3 +7,5 @@ This repository aims only to demonstrate how it's not possible to replicate this
 ```{bash}
 quarto install extension charliejhadley/xaringan-quarto
 ```
+
+<iframe src='https://raw.githubusercontent.com/charliejhadley/xaringan-letterbox-quarto/main/template.html'></iframe>
