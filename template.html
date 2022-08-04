@@ -398,10 +398,30 @@
 <li><p>Click the <code>Knit</code> button to compile it;</p></li>
 <li><p>or use the <a href="https://rstudio.github.io/rstudioaddins/">RStudio Addin</a><sup>2</sup> “Infinite Moon Reader” to live preview the slides (every time you update and save the Rmd document, the slides will be automatically reloaded in RStudio Viewer.</p></li>
 </ul>
+<aside><ol class="aside-footnotes"><li id="fn1" role="doc-endnote"><p>中文用户请看<a href="https://slides.yihui.org/xaringan/zh-CN.html">这份教程</a></p></li><li id="fn2" role="doc-endnote"><p>See <a href="https://github.com/yihui/xaringan/issues/2">#2</a> if you do not see the template or addin in RStudio.</p></li></ol></aside></section>
+<section id="hello-ninja" class="slide level2">
+<h2>Hello Ninja</h2>
+<p>As a presentation ninja, you certainly should not be satisfied by the “Hello World” example. You need to understand more about two things:</p>
+<ol type="1">
+<li><p>The <a href="https://remarkjs.com">remark.js</a> library;</p></li>
+<li><p>The <strong>xaringan</strong> package;</p></li>
+</ol>
+<p>Basically <strong>xaringan</strong> injected the chakra of R Markdown (minus Pandoc) into <strong>remark.js</strong>. The slides are rendered by remark.js in the web browser, and the Markdown source needed by remark.js is generated from R Markdown (<strong>knitr</strong>).</p>
+</section>
+<section id="remark.js" class="slide level2">
+<h2>remark.js</h2>
+<p>You can see an introduction of remark.js from <a href="https://remarkjs.com">its homepage</a>. You should read the <a href="https://github.com/gnab/remark/wiki">remark.js Wiki</a> at least once to know how to</p>
+<ul>
+<li><p>create a new slide (Markdown syntax<sup>1</sup> and slide properties);</p></li>
+<li><p>format a slide (e.g.&nbsp;text alignment);</p></li>
+<li><p>configure the slideshow;</p></li>
+<li><p>and use the presentation (keyboard shortcuts).</p></li>
+</ul>
+<p>It is important to be familiar with remark.js before you can understand the options in <strong>xaringan</strong>.</p>
 <div class="footer footer-default">
 
 </div>
-<aside><ol class="aside-footnotes"><li id="fn1" role="doc-endnote"><p>中文用户请看<a href="https://slides.yihui.org/xaringan/zh-CN.html">这份教程</a></p></li><li id="fn2" role="doc-endnote"><p>See <a href="https://github.com/yihui/xaringan/issues/2">#2</a> if you do not see the template or addin in RStudio.</p></li></ol></aside></section>
+<aside><ol class="aside-footnotes"><li id="fn3" role="doc-endnote"><p>It is different with Pandoc’s Markdown! It is limited but should be enough for presentation purposes. Come on… You do not need a slide for the Table of Contents! Well, the Markdown support in remark.js <a href="https://github.com/gnab/remark/issues/142">may be improved</a> in the future.</p></li></ol></aside></section>
 
     </div>
   </div>
