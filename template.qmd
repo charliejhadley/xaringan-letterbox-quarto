@@ -6,11 +6,6 @@ auto-stretch: false
 
 ## Hello World
 
-<!-- <script> -->
-<!-- const child = document.getElementById('title-slide'); -->
-<!-- child.parentElement.classList.add('inverse'); -->
-<!-- </script> -->
-
 Install the **xaringan** package from [Github](https://github.com/yihui/xaringan):
 
 
@@ -29,21 +24,3 @@ You are recommended to use the [RStudio IDE](https://www.rstudio.com/products/rs
 - Click the `Knit` button to compile it;
 
 - or use the [RStudio Addin](https://rstudio.github.io/rstudioaddins/)^[See [#2](https://github.com/yihui/xaringan/issues/2) if you do not see the template or addin in RStudio.] "Infinite Moon Reader" to live preview the slides (every time you update and save the Rmd document, the slides will be automatically reloaded in RStudio Viewer.
-
-:::
-
-##  Slide started with level 3
-
-------------------------------------------------------------------------
-
-### Level 2 header
-
-I'm on another slide!
-
--------------
-
-## Try {-}
-
-Do I work
-
-### I'm a third
